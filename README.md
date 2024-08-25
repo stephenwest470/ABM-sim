@@ -15,19 +15,25 @@ Matsumoto, N and Sasakura, M. 2016. Cultural and Genetic Transmission in the Jom
 
 ## Files
 ### Input Files
- 1. area.txt (defines simulation areas and settings per area)
+ 1. area.txt
+    - Defines simulation areas and settings per area.
     - Columns: area code, area name, carrying capacity, movement rate, over-capacity move rate modifier, over-capacity death rate modifier
- 2. link.txt (defines which areas are linked, chance of agents selecting one area over another)
+ 2. link.txt
+    - Defines which areas are linked, chance of agents selecting one area over another.
     - Columns: from area code, to area code, chance of selection by migrating agents.
- 3. BirthRate.txt (defines the birthrates per area, age, & sex)
+ 3. BirthRate.txt
+    - Defines the birthrates per area, age, & sex.
     - Column 1: area code. Columns 2~129: Annual chance of childbirth for females agents between ages 0 and 127.
     - Columns 130〜257: Annual chance of childbirth for male agents between ages 0 and 127.
- 4. MortalityRate.txt (defines the chance that an agent will die each year per area, age, & sex)
+ 4. MortalityRate.txt
+    - Defines the chance that an agent will die each year per area, age, & sex.
     - Column 1: area code. Columns 2~129: Female mortality rate between ages 0 and 127.
     - Columns 130〜257: Male mortality rate between ages 0 and 127.
- 5. init.txt (defines the initial population, sex ratio, and gvalue of simulation areas)
+ 5. init.txt
+    - Defines the initial population, sex ratio, and gvalue of simulation areas.
     - Columms: area code, population distribution type (1 hunter-gatherer, 2 agriculturalist), initial population, male to female ratio, initial gvalue
-6. Skill.txt (skill value of agents in each areɑ)
+ 6. Skill.txt
+    - Skill value of agents in each areɑ.
     - Column 1: area code. Columns 2~129: Female skill value between ages 0 and 127.
     - Columns 130〜257: Male skill value between ages 0 and 127.
 
