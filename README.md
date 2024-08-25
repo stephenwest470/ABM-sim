@@ -73,5 +73,5 @@ The ABM is stochastic so replicated results may vary slightly from the original 
 
 Refer to the original documentation for further details. A development environment for C, Ruby, and X11 is needed.
 
---Documentation--
+## Documentation
 See readme.text for the original documentation that was provided by Matsumoto and Sasakura (in Japanese).
