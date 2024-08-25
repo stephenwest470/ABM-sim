@@ -1,6 +1,6 @@
 # ABM-sim
 ## Context
-This is an agent-based simulation used for modeling archaeological populations, used in West (2024) "Agent-based Geosimulation of Yayoi Period Population Dynamics in Kyushu, Japan" (under review). It is largely based on the code provided by Matsumoto & Sasakura (2016), with some minor modifications made so carrying capacity is based on agents' skill value, and so that the probability of agent migration between areas can be defined.
+This is an agent-based simulation used for modeling archaeological populations, used in West (2024) "Agent-based Geosimulation of Yayoi Period Population Dynamics in Kyushu, Japan" (under review). It is largely based on the code provided by Matsumoto & Sasakura (2016), with some minor modifications made. The changes made include: 1) carrying capacity of simulation areas is based on agents' skill value, 2) the probability of agent migration between areas can be defined. Besides these minor structural changes, the majority of the work spent on this project was in determining simulation inputs and parameters for the study area (Early Yayoi period Kyushu).
 
 ### Citations
 West, S. 2024. Agent-based Geosimulation of Yayoi Period Population Dynamics in Kyushu, Japan. Journal of Computer Applications in Archaeology.
