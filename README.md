@@ -8,8 +8,10 @@ West, S. 2024. Agent-based Geosimulation of Yayoi Period Population Dynamics in 
 Matsumoto, N and Sasakura, M. 2016. Cultural and Genetic Transmission in the Jomon–Yayoi Transition Examined in an Agent-Based Demographic Simulation. In:. Barceló, JA and Del Castillo, F (eds.). Simulating Prehistoric and Ancient Worlds. Springer International Publishing. pp. 311–334.
 
 ## Directories
-./sim9-1.3 #Directory with files needed to execute the simulation.
-./sim9-1.3/parameters #Directories with the input files and results for each parameter. Move files into sim9-1.3 directory and overwrite to replicate.
+ 1. ./sim9-1.3
+    - Directory with files needed to execute the simulation.
+ 3. ./sim9-1.3/parameters
+    - Directories with the input files and results for each parameter. Move files into sim9-1.3 directory and overwrite to replicate.
 
 ## Files
 ### Input Files
